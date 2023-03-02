@@ -1317,5 +1317,4 @@ class Main:
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-Ayon-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
-			else:
-				continue		
+			else:	
