@@ -420,7 +420,7 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print("")
-		print("\033[1;36m     UNSUBSCRIBE KARNE WALON KA APROVEL URA DEYA JAIGA")
+		print("\033[1;36m     Bypass Done")
 		print("")
 		print("\033[1;32m [1] First You Subscribe Channel")
 		print("\033[1;33m [2] Exit")
@@ -1327,7 +1327,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/ayonh4x/aysu/blob/main/Approval.txt").text
+	r1=requests.get("https://github.com/atalamin/aysu/blob/main/Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
